@@ -1,0 +1,33 @@
+PODS:
+  - Flutter (1.0.0)
+  - Mindbox (1.3.0)
+  - mindbox_ios (0.1.0):
+    - Flutter
+    - Mindbox (~> 1.3.0)
+    - MindboxNotifications (~> 1.3.0)
+  - MindboxNotifications (1.3.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - mindbox_ios (from `.symlinks/plugins/mindbox_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Mindbox
+    - MindboxNotifications
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  mindbox_ios:
+    :path: ".symlinks/plugins/mindbox_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  Mindbox: 8bbb3e470df5c8cb1bf74a5b536b181f6f60e9b4
+  mindbox_ios: f281b1abd7745ef6358b175b6017a0acc9b6afa7
+  MindboxNotifications: 164e7591e434ae834b5bb548fc7132c088c1dcd7
+
+PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+
+COCOAPODS: 1.10.1
