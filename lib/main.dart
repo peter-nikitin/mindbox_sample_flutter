@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import 'package:mindbox/mindbox.dart';
 
@@ -77,6 +78,15 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               _deviceUUID,
             ),
+            TextButton(
+              style: ButtonStyle(
+                foregroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+              ),
+              onPressed: () {
+                Clipboard.setData(ClipboardData(text: _deviceUUID));
+              },
+              child: Text('Копировать deviceUUID'),
+            )
           ],
         ),
       ),
