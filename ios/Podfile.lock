@@ -10,6 +10,7 @@ PODS:
 DEPENDENCIES:
   - Flutter (from `Flutter`)
   - mindbox_ios (from `.symlinks/plugins/mindbox_ios/ios`)
+  - MindboxNotifications
 
 SPEC REPOS:
   trunk:
@@ -28,6 +29,6 @@ SPEC CHECKSUMS:
   mindbox_ios: f281b1abd7745ef6358b175b6017a0acc9b6afa7
   MindboxNotifications: 164e7591e434ae834b5bb548fc7132c088c1dcd7
 
-PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+PODFILE CHECKSUM: 5a2927f9c04429f1fce2a8015e11d74728276b97
 
 COCOAPODS: 1.10.1
