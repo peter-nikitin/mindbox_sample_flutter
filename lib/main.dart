@@ -16,6 +16,8 @@ void main() {
 
   Mindbox.instance.init(configuration: config);
 
+  Mindbox.instance.onPushClickReceived(print); 
+
   runApp(const MyApp());
 }
 
@@ -44,7 +46,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   String _deviceUUID = "SDK еще не инициализировано";
 
   void _setDeviceUUID(uuid) {
