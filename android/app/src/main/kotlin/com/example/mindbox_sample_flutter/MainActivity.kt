@@ -23,8 +23,6 @@ class MainActivity: FlutterActivity() {
             val uniqueKey = intent.getStringExtra("uniq_push_key")
             if (uniqueKey != null) {
 
-                Mindbox.onP
-
                 Mindbox.onPushClicked(this, it)
                 Mindbox.onNewIntent(it)
                 // Передача ссылки из пуша во Flutter
