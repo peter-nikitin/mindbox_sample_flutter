@@ -16,7 +16,7 @@ void main() {
 
   Mindbox.instance.init(configuration: config);
 
-  Mindbox.instance.onPushClickReceived(print); 
+  Mindbox.instance.onPushClickReceived(print);
 
   runApp(const MyApp());
 }
@@ -58,6 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     if (!mounted) return;
     Mindbox.instance.getDeviceUUID((device) {
+      print(device);
       _setDeviceUUID(device);
     });
     super.initState();
